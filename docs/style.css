@@ -270,6 +270,8 @@ aside img {
   gap: 3vw;
   flex-wrap: wrap;
   align-items: flex-start;
+  border-top: solid 0.1vh #e9e9e9;
+  height: auto;
 }
 
 .left,
@@ -288,6 +290,7 @@ aside img {
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 100%;
 }
 
 .right img {
@@ -331,3 +334,37 @@ button:hover {
   background-color: #485c11;
   color: white;
 }
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5vh;
+}
+
+.content button {
+  margin-top: 6vh;
+}
+
+table {
+  width: 100%;
+}
+td {
+  padding: 3vh;
+  border-top: solid 0.1vh #e9e9e9;
+}
+
+.main-table {
+  border: solid 0.1vh #e9e9e9;
+  box-shadow: 0 0 0.5vh darkgray;
+  border-radius: 3vh;
+}
+
+th {
+  padding: 2vh;
+  font-size: 2rem;
+  font-weight: 500;
+  border-bottom: solid 0.1vh #6f6f6f;
+}
+
