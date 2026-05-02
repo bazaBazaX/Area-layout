@@ -368,3 +368,29 @@ th {
   border-bottom: solid 0.1vh #6f6f6f;
 }
 
+.quotes {
+  flex-direction: column;
+  height: 50vh;
+  justify-content: space-evenly;
+  align-self: center;
+}
+
+.content.quote {
+  align-items: flex-start;
+  align-self: flex-start;
+  gap: 1.5vh;
+}
+
+h3 {
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+h4 {
+  font-weight: 400;
+  font-size: 1.25rem;
+}
+
+p.small {
+  font-size: 0.9rem;
+}
