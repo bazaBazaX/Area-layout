@@ -1,4 +1,5 @@
 const section = document.querySelectorAll("section");
+const footer = document.querySelector("footer");
 
 const observer = new IntersectionObserver(
   (entries) => {
@@ -15,3 +16,4 @@ const observer = new IntersectionObserver(
 );
 
 section.forEach((section) => observer.observe(section));
+observer.observe(footer);
