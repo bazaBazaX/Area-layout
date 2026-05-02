@@ -394,3 +394,23 @@ h4 {
 p.small {
   font-size: 0.9rem;
 }
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top button {
+  height: fit-content;
+}
+
+span.big {
+  font-size: 5rem;
+}
+
+.middle {
+  display: flex;
+  gap: 5vh;
+  margin-bottom: 10vh;
+}
